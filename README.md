@@ -101,3 +101,7 @@ Once the data were balanced and trained, the Easy Ensemble AdaBoost Classifier a
 
 <img width="749" alt="Screen Shot 2022-02-20 at 10 26 33 AM" src="https://user-images.githubusercontent.com/92277581/154852923-3fc717eb-d649-4b9d-a95f-a8ed48ea2e9a.png">
 
+## Summary:
+This analysis is trying to find the best model that can detect if a loan is high risk or not. Becasue of that, we need to find a model that lets the least amount of high risk loans pass through undetected. From the results above we can see that first four models don’t do well based off the accuracy scores. Other two models did better. 
+
+Out of the six supervised machine learning algorithms tested, Easy Ensemble AdaBoost CLassifier performed the best overall. It had a balanced accuracy score, along with high precision and recall scores. It also had a high specificity score, which means this algorithm correctly determined actual negatives 91% of the time, and a high F1 score. This means the harmonic mean of precision and recall were 0.97 out of 1.0.
