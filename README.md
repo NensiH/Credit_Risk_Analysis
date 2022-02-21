@@ -15,7 +15,7 @@ I used 6 different methods, which are:
 Through each of these methods, I split my data into training and testing datasets, and compiled accuracy scores, confusion matries, and classification reports as my results.
 
 ## Resources:
-- **Data Source:** LoanStats_2019Q1.csv
+- **Data Source:** [LoanStats_2019Q1.csv](https://github.com/NensiH/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.csv)
 - **Software:** Jupyter Notebook, Anaconda Navigator
 - **Environment:** Python 3.7
   - Dependencies
@@ -34,7 +34,7 @@ Initially, Data contained null and string values:
 
 <img width="996" alt="Screen Shot 2022-02-20 at 10 08 12 AM" src="https://user-images.githubusercontent.com/92277581/154852168-32b40a02-f9c6-416c-933a-e318f1b512de.png">
 
-Credit card data from LoanStats_2019Q1.csv was cleaned prior to implementing machine learning techniques. Null columns and rows were dropped, interest rates were converted to numerical values, and target (y-axis) columns were converted to low_risk and high_risk based on their values.
+Credit card data from [LoanStats_2019Q1.csv](https://github.com/NensiH/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.csv) was cleaned prior to implementing machine learning techniques. Null columns and rows were dropped, interest rates were converted to numerical values, and target (y-axis) columns were converted to low_risk and high_risk based on their values.
 
 <img width="980" alt="Screen Shot 2022-02-20 at 10 15 26 AM" src="https://user-images.githubusercontent.com/92277581/154852442-9aae5c1c-2b23-4edf-ac85-f42abac4fc4e.png">
 
